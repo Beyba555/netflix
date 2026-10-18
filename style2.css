@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #100506;
+    background-image: linear-gradient(to bottom, rgba(75, 15, 20, 0.92) 0, rgba(28, 3, 6, 0.88) 30%, rgba(0, 0, 0, 0.96) 100%), url("file:///C:/Users/%D0%94%D0%B0%D0%BD%D0%B8%D1%80%D0%B0/Desktop/netfilx2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 78%;
+    height: 78px;
+    flex-shrink: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+header img {
+    width: 135px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: min(392px, calc(100% - 40px));
+    margin: 31px auto 0;
+}
+
+.text {
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+
+.text h1 {
+    max-width: 370px;
+    font-size: 29px;
+    line-height: 1.25;
+}
+
+.text h5 {
+    margin-top: 7px;
+    color: #c6c6c6;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-input {
+    display: flex;
+    margin-top: 21px;
+    width: 100%;
+}
+
+.text-input input {
+    height: 50px;
+    padding: 0 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #5e5e5e;
+    border-radius: 4px;
+    background: rgba(35, 25, 25, 0.75);
+    color: #fff;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 11px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
